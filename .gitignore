@@ -1,0 +1,80 @@
+# Environment variables and secrets
+.env
+.env.*
+.env.local
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Testing and coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.log
+
+# Databases and local state
+*.sqlite3
+db.sqlite3
+db.sqlite3-journal
+local_settings.py
+media/
+staticfiles/
+
+# IDE and editors
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+
+# Operating System
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Browser automation artifacts and temporary files
+chrome_profile*/
+browser_profile*/
+browser_profiles/
+.playwright/
+ms-playwright/
+playwright-report/
+test-results/
+*.tmp
+*.temp
+~$*
